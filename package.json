@@ -1,0 +1,30 @@
+{
+  "name": "visual-bits",
+  "version": "1.0.0",
+  "description": "Visual Bits Website, developed by Nathan de Graaf",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "sass": "gulp sass:watch",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nathan-deGraaf/Visual-Bits.git"
+  },
+  "author": "Nathan de Graaf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nathan-deGraaf/Visual-Bits/issues"
+  },
+  "homepage": "https://github.com/Nathan-deGraaf/Visual-Bits#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.13.1",
+    "pug": "^2.0.4",
+    "sass": "^1.24.5"
+  }
+}
