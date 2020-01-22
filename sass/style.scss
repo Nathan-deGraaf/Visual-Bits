@@ -1,0 +1,47 @@
+$orange: #fd6f08;
+$blue: #1a1c2b;
+
+   /////////////////////////////////////////////////////////////////////////////
+  /////////////////////////////////// HEADER //////////////////////////////////
+ /////////////////////////////////////////////////////////////////////////////
+
+.search {
+  padding: 25px;
+  background-color: $blue;
+}
+
+nav ul{
+  
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+
+  .logo{
+    width: 300px;
+    margin: 1rem;
+    margin-left: 50px;
+  }
+
+  .nav-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+  
+  
+    a {
+      padding: 10px 15px;
+
+      font-size: 14px;
+      text-decoration: none;
+      color: $orange;
+      font-weight: bold;
+    }
+
+    .nav-end {
+      margin-right: 50px;
+    }
+  }
+}
+

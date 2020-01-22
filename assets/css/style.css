@@ -1,0 +1,26 @@
+.search {
+  padding: 25px;
+  background-color: #1a1c2b; }
+
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  display: flex; }
+  nav ul .logo {
+    width: 300px;
+    margin: 1rem;
+    margin-left: 50px; }
+  nav ul .nav-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-self: center; }
+    nav ul .nav-container a {
+      padding: 10px 15px;
+      font-size: 14px;
+      text-decoration: none;
+      color: #fd6f08;
+      font-weight: bold; }
+    nav ul .nav-container .nav-end {
+      margin-right: 50px; }
